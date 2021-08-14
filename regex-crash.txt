@@ -1,0 +1,7 @@
+. represents any character in regex
+^ represents start of a line
+$ represents end of a line
+[0-9] represents a range, you can change 0 and 9 however you want (even letters)
+[^0-9] represents characters that are not in that range
+[aeiou] represents the characters in the expression
+? or \? represents an optional character //example: bird || birds == birds?
